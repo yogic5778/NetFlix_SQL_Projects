@@ -17,7 +17,7 @@ This project aims to explore and study Netflix’s TV Shows and Movies data usin
 
 5. Identify the top-rated or most popular shows and movies.
 
-
+## *** Solve 15 Business Problems Using SQL ***
 
 1. Count the number of Movies vs Tv Shows?
 
