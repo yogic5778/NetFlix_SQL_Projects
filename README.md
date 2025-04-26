@@ -2,6 +2,22 @@
 
 ![Netflix_Logo] (https://github.com/yogic5778/NetFlix_SQL_Projects/blob/main/NF.jpg)
 
+## Overview: 
+This project aims to explore and study Netflix’s TV Shows and Movies data using SQL. The goal is to find useful information about types of content, release patterns, popular genres, and which countries create the most content. This will help us better understand what Netflix offers to its users and how they plan their content.
+
+##Objectives:
+Find out how many Movies and TV Shows are on Netflix.
+
+See how the number of shows and movies has changed over the years.
+
+Discover the most popular genres and categories.
+
+Check which countries produce the most content for Netflix.
+
+Identify the top-rated or most popular shows and movies.
+
+
+
 1. Count the number of Movies vs Tv Shows?
 
 Select types, count(*) as Content_count from Netflix 
