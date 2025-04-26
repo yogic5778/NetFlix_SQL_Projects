@@ -22,8 +22,6 @@ select count(*) listed_movie_2020 from Netflix where release_year = 2020 and typ
 
 -- 4. Find the top 5 Countries with the Most Content on Netflix?
 
-select * from Netflix;
-
 select UNNEST(STRING_TO_ARRAY(country, ',')) as new_country,
 	   count(show_id) as Total_content  from Netflix
 group by 1
@@ -31,8 +29,6 @@ order by 2 desc
 Limit 5;
 
 -- 5. Find The Logest Duration Movie?
-
-select * from Netflix;
 
 select title, max(duration) as Longest_movie from Netflix
 where types = 'Movie' and duration is not null
@@ -45,13 +41,12 @@ limit 1;
 
 SELECT * FROM Netflix
 WHERE TO_DATE(date_added, 'Month DD, YYYY') >= CURRENT_DATE - INTERVAL '5 Years'
-
 SELECT CURRENT_DATE - INTERVAL '5 YEARS'
 
 
 -- 7. Find all Movies and Tv Shows that is Directed by 'Rajiv Chilaka'?
 
-select types, director from Netflix where director 	ILIKE '%Rajiv Chilaka%';
+select types, director from Netflix where director ILIKE '%Rajiv Chilaka%';
 
 --8. List all Tv Show with more than 5 Seasons?
 
@@ -64,8 +59,6 @@ from Netflix
 group by 1;
 
 -- 10. Find each years and the AVG Number of content release by India on Netflix, Return Top 5 years with higest Avg Content relase?
-
-select Avg(types) as Avg_content from netflix where country = 'India';
 
 select EXTRACT(Year from To_date(date_added, 'Month DD, YYYY')) as Year,
 count(*) as yearly_content,
