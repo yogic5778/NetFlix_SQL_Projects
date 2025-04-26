@@ -1,1 +1,1 @@
-# NetFlix_SQL_Projects
+# NetFlix TV Shows And Movies Data Analysis Using SQL
