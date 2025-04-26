@@ -6,15 +6,16 @@
 This project aims to explore and study Netflix’s TV Shows and Movies data using SQL. The goal is to find useful information about types of content, release patterns, popular genres, and which countries create the most content. This will help us better understand what Netflix offers to its users and how they plan their content.
 
 ##Objectives:
-Find out how many Movies and TV Shows are on Netflix.
 
-See how the number of shows and movies has changed over the years.
+1. Find out how many Movies and TV Shows are on Netflix.
 
-Discover the most popular genres and categories.
+2. See how the number of shows and movies has changed over the years.
 
-Check which countries produce the most content for Netflix.
+3. Discover the most popular genres and categories.
 
-Identify the top-rated or most popular shows and movies.
+4. Check which countries produce the most content for Netflix.
+
+5. Identify the top-rated or most popular shows and movies.
 
 
 
